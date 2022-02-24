@@ -8,4 +8,8 @@ python apihashreplace.py \<32 or 64\> \<name of your shellcode\>
 
 
 *Eg*
+*for 32-bit/x86 payloads*
 python apihashreplace.py 32 shellcode.bin
+
+*for 64-bit/x64 payloads*
+python apihashreplace.py 64 shellcode.bin
