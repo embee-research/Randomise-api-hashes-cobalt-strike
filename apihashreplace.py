@@ -174,7 +174,6 @@ def main():
 
     
     print("New ror value is {}".format(hex(newror)))
-    #print("This will be equivalent to {}".format(hex(newror % 32)))
     print("Wrote {} bytes to file {}".format(len(Shellcode),newName))
     f.close()
     
